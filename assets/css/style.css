@@ -1207,7 +1207,7 @@ color: #FFFFFF;
 } 
 #riped5{
     position: absolute;
-    width: 1093.6px;
+    width: 1073.6px;
     height: 96px;
     left: -282px;
     top: 6px;
@@ -1234,9 +1234,11 @@ height: 270px;
 left: 0px;
 top: 0px;
 }
- #riped3{
-  position: absolute;
+#riped3{
+height: 364px;
 width: 768px;
+left: 0px;
+border-radius: 0px;
 }
 @media (max-width: 320px) {
 @media screen and (max-height: 450px) {

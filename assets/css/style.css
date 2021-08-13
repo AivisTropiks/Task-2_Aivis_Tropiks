@@ -1,0 +1,1701 @@
+*{
+ box-sizing: border-box;
+ }
+ 
+
+@font-face {
+    font-family: Montserrat;
+    src: url('/assets/font/Montserrat-Medium.ttf');   
+}
+@font-face {
+font-family: Oswald;
+src: url('/assets/font/Oswald-Medium.ttf');
+}
+span{
+display: none;
+}
+.closebtn{
+display: none;
+}
+#navbar-brand{
+position: absolute;
+width: 159px;
+height: 96;
+left: 62px;
+top: 0;
+}
+
+.overlay{
+position: absolute;
+width: 1366px;
+height: 92.51px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+z-index: 1;
+}
+
+
+.overlay-content{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+white-space: nowrap;
+}
+
+
+#link1{
+position: absolute;
+width: 46px;
+height: 24px;
+left: 305px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+
+#link2{
+position: absolute;
+width: 130px;
+height: 24px;
+left: 386px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+
+#link3{
+position: absolute;
+width: 120px;
+height: 24px;
+left: 543px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+
+#link4{
+position: absolute;
+width: 123px;
+height: 45px;
+left: 698px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+
+#link5{
+position: absolute;
+width: 153px;
+height: 45px;
+left: 856px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+
+#link6{
+position: absolute;
+width: 188px;
+height: 29px;
+left: 1036px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+
+#link7{
+position: absolute;
+width: 29px;
+height: 29px;
+left: 1278px;
+top: 51px;
+color: #060606;
+text-decoration: none;
+}
+#link8{
+display: none;
+}
+#link9{
+display: none;
+}
+
+.video{
+position: absolute;
+z-index: -2;
+width: 1366px;
+height: 722px;
+left: 0px;
+top: 47px;
+}
+
+#video-button{
+position: absolute;
+width: 86px;
+height: 83px;
+left: 640px;
+top: 366px;
+}
+
+#text{
+position: absolute;
+width: 650px;
+height: 114px;
+left: 361px;
+top: 919px;
+font-family: Montserrat;
+font-style: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #2F4858;
+font-weight: 400;
+letter-spacing: -0.01em;
+}
+
+/* Zanda_1 */
+#picture1{
+position: absolute;
+width: 328px;
+height: 355px;
+left: 0px;
+top: 1197px;
+}
+
+ /* Sibilla_4 */
+#picture2{
+    position: absolute;
+    width: 334px;
+    height: 364px;
+    left: 328px;
+    top: 1202px;
+}
+
+/* Anda_2 1 */
+#picture5{
+    position: absolute;
+    width: 406px;
+    height: 383px;
+    left: 960px;
+    top: 1183px;
+}
+
+/* Brinuma_meita-15 */
+#picture3{
+    position: absolute;
+    width: 298px;
+    height: 180px;
+    left: 662px;
+    top: 1202px;
+}
+
+/* Alina_1 1 */
+#picture4{
+    position: absolute;
+    width: 298px;
+    height: 184px;
+    left: 662px;
+    top: 1382px;
+}
+
+/* Teksts */
+#text-sapnotajiem-uznemejiem{
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #2F4858;
+}
+
+#teksts-sapnotajiem{
+position: absolute;
+width: 394px;
+height:29px;
+left: 220px;
+top: 1731px;
+}
+
+#teksts-uznemejiem{
+position: absolute;
+width: 500px;
+height: 29px;
+left: 698px;
+top: 1731px;
+}
+
+/* Pogas */
+.button{
+margin-top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+text-align: center;
+}
+
+/* Poga sapņotājiem */
+#button-sapnotajiem{
+position: absolute;
+width: 233px;
+height: 50px;
+left: 300px;
+top: 1810px;
+background: #FFA800;
+border-radius: 50px;
+border: hidden;
+color: #FFFFFF;
+}
+
+/* Poga uzņēmējiem */
+#button-uznemejiem{
+position: absolute;
+width: 233px;
+height: 50px;
+left: 832px;
+top: 1810px;
+background: #FFA800;
+border-radius: 50px;
+border: hidden;
+color: #FFFFFF;
+}
+
+/* SAZINĀTIES AR MUMS */
+#SAZINĀTIES{
+position: absolute;
+width: 830px;
+height: 49px;
+left: 268px;
+top: 2012px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44.46px;
+text-align: center;
+letter-spacing: 0.0em;
+
+color: #2F4858;
+}
+
+.form{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+letter-spacing: -0.015em; 
+}
+
+.contact-form-name{
+position: absolute;
+width: 296px;
+height: 43px;
+left: 377px;
+top: 2113px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+
+}
+
+.contact-form-email{
+position: absolute;
+width: 296px;
+height: 43px;
+left: 693px;
+top: 2113px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+.contact-form-Phone{
+position: absolute;
+width: 612px;
+height: 43px;
+left: 377px;
+top: 2171px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+.contact-form-message{
+position: absolute;
+width: 612px;
+height: 232px;
+left: 377px;
+top: 2229px;
+border: hidden;
+background: rgba(196, 196, 196, 0.4);
+border-radius: 6px;
+}
+
+/* * obligāti aizpildāmie lauki */
+#form-text{
+position: absolute;
+width: 400px;
+height: 25px;
+left: 377px;
+top: 2477px; 
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #2F4858; 
+letter-spacing: -0.01em;
+}
+
+ /* Rectangle 44 */
+.form-check-input{
+position: absolute;
+width: 16px;
+height: 16px;
+left: 407px;
+top: 2524px;
+background: #E7E7E7;
+border-radius: 3px;
+}
+
+/* Text next to check*/
+.form-check-label{
+    position: absolute;
+    width: 572px;
+    height: 39px;
+    left: 417px;
+    top: 2527px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+font-weight: 400;
+letter-spacing: -0.01em;
+
+
+}
+
+#contact-form-button{
+position: absolute;
+width: 182px;
+height: 62px;
+left: 592px;
+top: 2615px;
+border-radius: 50px;
+border: hidden;
+background: #FFA800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.atbalstitaji-container{
+
+  position: absolute;
+  width: 1366px;
+  height: 481.59px;
+  left: 0px;
+  top: 2827px;
+background: #FFCB66;
+}
+.atbalstitaji{
+position: absolute;
+width: 394px;
+height: 29px;
+left: 486px;
+top: 100px;
+    
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #2F4858;
+letter-spacing: 0em;
+}
+#logo3{
+    position: absolute;
+width: 84.77px;
+height: 120px;
+left: 1113px;
+top: 199px;
+}
+#logo6{
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    left: 495px;
+    top: 218px; 
+}
+#logo5{
+    position: absolute;
+    width: 241.95px;
+    height: 80px;
+    left: 168px;
+    top: 218px;
+}
+#logo4{
+    position: absolute;
+    width: 238.96px;
+    height: 80px;
+    left: 789px;
+    top: 218px;
+}
+
+.footer-container{
+position: absolute;
+width: 1366px;
+height: 376px;
+left: 0px;
+top: 3275px;
+background: #FFCB66;   
+}
+
+.LogoZelts{
+position: absolute;
+left: 4.54%;
+right: 82.14%;
+top: 19.41%;
+bottom: 32.18%;
+}
+
+#logo1{
+position: absolute;
+left: 92.83%;
+right: 4.54%;
+top: 67.82%;
+bottom: 22.61%;  
+}
+
+#logo2{
+position: absolute;
+left: 89.39%;
+right: 9.3%;
+top: 67.82%;
+bottom: 22.61%;   
+}
+
+.footer-text{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+#text1{
+position: absolute;
+left: 28.11%;
+right: 66.91%;
+top: 18.88%;
+bottom: 74.73%;
+}
+
+#text2{
+position: absolute;
+left: 27.89%;
+right: 58.78%;
+top: 30.85%;
+bottom: 62.77%;
+}
+
+#text3{
+position: absolute;
+left: 27.89%;
+right: 59%;
+top: 42.82%;
+bottom: 50.8%;
+}
+
+#text4{
+position: absolute;
+left: 27.89%;
+right: 63.1%;
+top: 53.72%;
+bottom: 34.31%;
+}
+
+#text5{
+position: absolute;
+left: 27.89%;
+right: 59%;
+top: 65.43%;
+bottom: 22.61%;
+}
+
+#text6{
+position: absolute;
+left: 27.89%;
+right: 59%;
+top: 77.39%;
+bottom: 14.89%;
+}
+
+#text7{
+position: absolute;
+left: 47%;
+right: 32.58%;
+top: 30.85%;
+bottom: 62.77%;
+}
+
+#text8{
+position: absolute;
+left: 47%;
+right: 32.58%;
+top: 39.89%;
+bottom: 53.99%;
+}
+
+#text9{
+position: absolute;
+left: 47%;
+right: 32.58%;
+top: 48.4%;
+bottom: 46.54%;
+}
+
+#text10{
+position: absolute;
+right: 64px;
+top: 30.85%;
+}
+
+#text11{
+position: absolute;
+right: 64px;
+top: 39.89%;
+bottom: 54.52%;
+}
+
+#text12{
+position: absolute;
+right: 64px;
+top: 48.14%;
+bottom: 46.01%;
+}
+
+.footer-TEXT{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;  
+}
+
+#footer-BigText1{
+position: absolute;
+left: 47%;
+right: 31.99%;
+top: 18.62%;
+bottom: 75%;
+}
+
+#footer-BigText2{
+position: absolute;
+right:64px;
+top: 18.88%;
+bottom: 69.15%;
+}
+
+.footer-TEXT-small{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+letter-spacing: -0.01em;
+}
+
+#footer-TEXT-small1{
+position: absolute;
+left: 4.54%;
+right: 82.14%;
+top: 86.44%;
+bottom: 3.46%;
+}
+
+#footer-TEXT-small2{
+position: absolute;
+right: 64px;
+top: 90.96%;
+bottom: 5.32%;
+}
+
+#rekviziti{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+display: none;
+}
+
+#riped1{
+position: absolute;
+width: 1366px;
+height: 55px;
+left: 0px;
+top: 1526px;
+}
+
+#riped2{
+position: absolute;
+width: 1366px;
+height: 55px;
+left:0px;
+top: 1183px;
+transform: rotate(-180deg);
+z-index: 1;
+
+}
+#riped3{
+position: absolute;
+height: 374px;
+width: 1366px;
+left: 0px;
+bottom: 0px;
+}
+
+#riped4{
+width: 1366px;
+height: 374px;
+}
+
+#riped5{
+position: absolute;
+left: -0.07%;
+right: 0%;
+top:0%;
+bottom: 96.71%;
+z-index: -1;
+}
+@media (max-width: 768px) {
+@media screen and (max-height: 450px) {
+.overlay a {font-size: 20px}
+ }
+span{
+    display: inline;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 668px;
+    top: 35px;
+    
+}
+.overlay {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: white;
+background-color:white;
+overflow-x:hidden;
+transition:0.5s;
+}
+          
+.overlay-content {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: black;
+display: block;
+transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+color:white;
+}
+.overlay .closebtn {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 668px;
+top: 35px;
+
+}
+#link1{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 158px;
+height: 24px;
+left: 305px;
+top: 294px;
+}     
+#link2{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 352px;
+height: 24px;
+left: 208px;
+top: 398px;
+}
+#link3{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 352px;
+height: 24px;
+left: 208px;
+top: 502px;
+}    
+#link4{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 352px;
+height: 24px;
+left: 208px;
+top: 606px;
+}
+ #link5{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 352px;
+height: 24px;
+left: 208px;
+top: 710px;
+}
+#link6{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 352px;
+height: 24px;
+left: 208px;
+top: 814px;
+margin-bottom: 40px;
+}
+#link7{
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 40px;
+height: 24px;
+left: 235px;
+top: 190px;
+}
+#link8{
+display: inline;
+font-size: 24px;
+line-height: 29px;
+position: absolute;
+width: 40px;
+height: 24px;
+left: 363px;
+top: 190px;
+} 
+#link9{
+display: inline;
+position: absolute;
+width: 40px;
+height: 24px;
+left: 491px;
+top: 190px;
+font-size: 24px;
+line-height: 29px;
+}
+#navbar-brand{
+position: absolute;
+width: 159px;
+height: 106px;
+left: 62px;
+top: -5px;
+z-index: 5;
+}
+.video{
+position: absolute;
+width: 768px;
+height: 406px;
+left: 0px;
+top: 71px;
+ }
+        
+#video-button{
+position: absolute;
+width: 86px;
+height: 83px;
+left: 341px;
+top: 233px;
+}
+#text{
+position: absolute;
+width: 608px;
+height: 140px;
+left: 80px;
+top: 631px;  
+}
+    
+/* Zanda_1 */
+#picture1{
+position: absolute;
+width: 184px;
+height: 200px;
+left: 0px;
+top: 925px;
+}
+
+ /* Sibilla_4 */
+#picture2{
+    position: absolute;
+width: 188px;
+height: 206px;
+left: 184px;
+top: 927px;
+}
+
+/* Anda_2 1 */
+#picture5{
+    position: absolute;
+width: 229px;
+height: 216px;
+left: 539px;
+top: 917px;
+}
+
+/* Brinuma_meita-15 */
+#picture3{
+    position: absolute;
+width: 167px;
+height: 102px;
+left: 372px;
+top: 927px;
+}
+
+/* Alina_1 1 */
+#picture4{
+    position: absolute;
+width: 167px;
+height: 104px;
+left: 372px;
+top: 1029px;
+}
+#text-sapnotajiem-uznemejiem{
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #2F4858;
+}
+#teksts-sapnotajiem{
+position: absolute;
+width: 233px;
+height: 29px;
+left: 455px;
+top: 1291px;
+    }
+    
+ #teksts-uznemejiem{
+position: absolute;
+width: 233px;
+height: 54px;
+left: 80px;
+top: 1291px;
+ }
+/* Poga sapņotājiem */
+#button-sapnotajiem{
+position: absolute;
+width: 233px;
+height: 50px;
+left: 80px;
+top: 1395px;
+}
+    
+/* Poga uzņēmējiem */
+#button-uznemejiem{
+position: absolute;
+width: 233px;
+height: 50px;
+left: 455px;
+top: 1395px;
+}
+#SAZINĀTIES{
+position: absolute;
+width: 819px;
+height: 35px;
+left: -26px;
+top: 1595px;
+}
+.contact-form-name{
+    position: absolute;
+width: 294.07px;
+height: 40px;
+left: 80px;
+top: 1690px;
+    
+    }
+.contact-form-email{
+position: absolute;
+width: 294.07px;
+height: 40px;
+left: 393.93px;
+top: 1690px;
+}
+.contact-form-Phone{
+position: absolute;
+width: 608px;
+height: 40px;
+left: 80px;
+top: 1745px;
+}
+    
+.contact-form-message{
+position: absolute;
+width: 608px;
+height: 230px;
+left: 80px;
+top: 1800px;
+}
+    
+/* * obligāti aizpildāmie lauki */
+#form-text{
+position: absolute;
+width: 608px;
+height: 19px;
+left: 81px;
+top: 2046px;
+}
+    
+ /* Rectangle 44 */
+.form-check-input{
+position: absolute;
+width: 16px;
+height: 16px;
+left:106px;
+top: 2069px;
+}
+    
+/* Text next to check*/
+.form-check-label{
+position: absolute;
+width: 568px;
+height: 39px;
+left: 121px;
+top: 2074px;
+letter-spacing: -0.02em;
+}
+#contact-form-button{
+position: absolute;
+width: 182px;
+height: 62px;
+left: 292px;
+top: 2163px;
+}
+.atbalstitaji-container{
+position: absolute;
+width: 768px;
+height: 299.85px;
+left: 0px;
+top: 2375px;
+}
+.atbalstitaji{
+position: absolute;
+width: 222px;
+height: 34px;
+left: 273px;
+top:56px;
+}
+#logo3{
+position: absolute;
+width: 49px;
+height: 71px;
+left: 639px;
+top: 115px;
+}
+#logo6{
+position: absolute;
+width: 123px;
+height: 47px;
+left: 274px;
+top: 126px;
+}
+#logo5{
+position: absolute;
+width: 144px;
+height: 47px;
+left: 80px;
+top: 126px;
+}
+#logo4{
+position: absolute;
+width: 142px;
+height: 47px;
+left: 447px;
+top: 126px;
+}
+.footer-container{
+position: absolute;
+height: 364px;
+width: 768px;
+left: 0px;
+top: 2657px;
+}
+            
+#LogoZelts{
+position: absolute;
+height: 162px;
+width: 162px;
+left: 46px;
+top: -30px;
+border-radius: 0px;
+}
+#logo1{
+position: absolute;
+left: 86.33%;
+right: 10.42%;
+top: 238px;
+height: 25px;
+width: 25px;
+left: 663px;
+
+}
+            
+#logo2{
+position: absolute;
+left: 80.21%;
+right: 18.16%;
+top: 238px;
+bottom: 3.34%;
+height: 25px;
+width: 12.5px;
+left: 616px;
+
+}
+            
+#text1{
+display: none;
+}
+            
+#text2{
+display: none;
+}
+            
+#text3{
+ display: none;
+}
+            
+#text4{
+display: none;
+}
+            
+#text5{
+display: none;
+}
+#text6{
+ display: none;
+}
+            
+#text7{
+display: none;
+}
+            
+#text8{
+display: none;
+}
+            
+#text9{
+display: none;
+}
+            
+#text10{
+position: absolute;
+right: 80px;
+top: 85px;
+}
+            
+#text11{
+position: absolute;
+right: 80px;
+top: 118px;
+bottom: 54.52%;
+
+}
+            
+#text12{
+position: absolute;
+right: 80px;
+top: 150px;
+bottom: 46.01%;
+}
+            
+#footer-BigText1{
+display: none;
+}
+            
+#footer-BigText2{
+position: absolute;
+height: 30px;
+width: 225px;
+left: 80px;
+top: 233px;
+}
+            
+#footer-TEXT-small1{
+position: absolute;
+left: 10.42%;
+right: 38.15%;
+top: 300px;
+bottom: 1.66%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+letter-spacing: 0.01em;
+}
+            
+#footer-TEXT-small2{
+position: absolute;
+left: 66.54%;
+right: 10.55%;
+top: 300px;
+bottom: 1.66%;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+#rekviziti{
+position: absolute;
+display: block;
+left: 53.12%;
+right: 10.42%;
+top: 180px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: right;
+color: #FFFFFF;
+
+} 
+#riped5{
+    position: absolute;
+    width: 1093.6px;
+    height: 96px;
+    left: -282px;
+    top: 6px;
+}    
+#riped2{
+    position: absolute;
+    width: 768px;
+    height: 31px;
+    left: 0px;
+    top: 917px;
+    transform: rotate(180deg);
+}
+#riped1{
+    position: absolute;
+    width: 768px;
+    height: 31px;
+    left: 0px;
+    top: 1110px;
+}
+#riped4{
+position: absolute;
+width: 768px;
+height: 270px;
+left: 0px;
+top: 0px;
+}
+
+}
+@media (max-width: 320px) {
+@media screen and (max-height: 450px) {
+.overlay a {font-size: 18px}
+.overlay .closebtn {
+font-size: 20px;
+top: 15px;
+left: 35px;
+         } }
+            
+span{
+position: absolute;
+width: 14.8px;
+height: 14.8px;
+left: 281.33px;
+top: 17.45px;
+color: black;
+}
+
+       
+    
+.overlay a:hover, .overlay a:focus {
+color: black;
+}
+.overlay .closebtn {
+position: absolute;
+width: 14.8px;
+height: 14.8px;
+left: 281.33px;
+top: 17.45px;
+color: black;
+}
+#link1{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 160px;
+height: 24px;
+left: 80px;
+top: 156px;
+}     
+#link2{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 160px;
+height: 24px;
+left: 80px;
+top: 220px;
+}
+#link3{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 160px;
+height: 24px;
+left: 80px;
+top: 284px;
+}    
+#link4{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 160px;
+height: 24px;
+left: 80px;
+top: 348px;
+}
+#link5{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 160px;
+height: 24px;
+left: 80px;
+top: 412px;
+}
+#link6{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 200px;
+height: 24px;
+left: 60px;
+top: 476px;
+}
+#link7{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 40px;
+height: 24px;
+left: 80px;
+top: 92px;
+}
+#link8{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 40px;
+height: 24px;
+left: 140px;
+top: 92px;
+} 
+#link9{
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+width: 40px;
+height: 24px;
+left: 200px;
+top: 92px;
+}
+        #navbar-brand{
+            position: absolute;
+            width: 78px;
+            height: 72px;
+            left: 20px;
+            top: -23px;
+        z-index: 2;
+        }
+.video{
+position: absolute;
+width: 320px;
+height: 169px;
+left: 0px;
+top: 49px;
+}
+#video-button{
+position: absolute;
+width: 50px;
+height: 48.26px;
+left: 135px;
+top: 110.37px;
+}
+#text{
+position: absolute;
+width: 280px;
+height: 124px;
+left: 20px;
+top: 298px;          
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+}
+ /* Sibilla_4 */
+ #picture2{
+position: absolute;
+width: 167px;
+height: 183px;
+left: 168px;
+top: 676px;
+}
+
+/* Anda_2 1 */
+#picture5{
+position: absolute;
+width: 184px;
+height: 174px;
+left: 136px;
+top: 502px;
+}
+
+/* Brinuma_meita-15 */
+#picture3{
+position: absolute;
+width: 136px;
+height: 82px;
+left: 0px;
+top: 509px;
+}
+
+/* Alina_1 1 */
+#picture4{
+position: absolute;
+width: 136px;
+height: 85px;
+left: 0px;
+top: 591px;
+}
+/* Zanda_1 */
+#picture1{
+position: absolute;
+width: 168px;
+height: 183px;
+left: 0px;
+top: 676px;
+}
+#teksts-sapnotajiem{
+position: absolute;
+width: 394px;
+height: 29px;
+left: -33px;
+top: 979px;
+}
+        
+#teksts-uznemejiem{
+position: absolute;
+width: 280px;
+height: 55px;
+left: 20px;
+top: 1168px;
+}
+/* Poga sapņotājiem */
+#button-sapnotajiem{
+position: absolute;
+width: 233px;
+height: 50px;
+left: 47px;
+top: 1038px;
+}
+/* Poga uzņēmējiem */
+#button-uznemejiem{
+position: absolute;
+width: 233px;
+height: 50px;
+left: 47px;
+top: 1253px;
+}
+#SAZINĀTIES{
+position: absolute;
+width: 280px;
+height: 35px;
+left: 20px;
+top: 1423px;
+font-size: 24px;
+line-height: 36px;
+}
+.contact-form-name{
+position: absolute;
+width: 280px;
+height: 35px;
+left: 20px;
+top: 1488px;
+}
+.contact-form-email{
+position: absolute;
+width: 280px;
+height: 35px;
+left: 20px;
+top: 1533px;
+}
+        
+.contact-form-Phone{
+position: absolute;
+width: 280px;
+height: 35px;
+left: 20px;
+top: 1578px;
+}
+        
+.contact-form-message{
+position: absolute;
+width: 280px;
+height: 150px;
+left: 20px;
+top: 1623px;
+}
+        
+/* * obligāti aizpildāmie lauki */
+#form-text{
+position: absolute;
+width: 280px;
+height: 18px;
+left: 20px;
+top: 1783px;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+}
+        
+ /* Rectangle 44 */
+.form-check-input{
+position: absolute;
+width: 16px;
+height: 16px;
+left: 50px;
+top: 1811px;
+}
+        
+/* Text next to check*/
+.form-check-label{
+position: absolute;
+width: 243px;
+height: 63px;
+left: 57px;
+top: 1811px;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+}
+#contact-form-button{
+position: absolute;
+width: 140px;
+height: 48px;
+left: 90px;
+top: 1924px;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.atbalstitaji-container{
+position: absolute;
+width: 322px;
+height: 732.05px;
+left: -1px;
+top: 2093px;
+}
+.atbalstitaji{
+position: absolute;
+width: 160px;
+height: 33px;
+left: 80px;
+top: 75px; 
+font-size: 24px;
+line-height: 36px;
+}
+#logo3{
+position: absolute;
+width: 48px;
+height: 67px;
+left: 210px;
+top: 250px;
+}
+#logo6{
+position: absolute;
+width: 131px;
+height: 51px;
+left: 169px;
+top: 180px;              
+}
+#logo5{
+position: absolute;
+width: 130px;
+height: 44px;
+left: 21px;
+top: 180px;
+}
+#logo4{
+position: absolute;
+width: 131px;
+height: 44px;
+left: 20px;
+top: 250px;
+}
+.footer-container{
+position: absolute;
+width: 320px;
+height: 483px;
+left: 0px;
+top: 2488px;
+}
+                
+#LogoZelts{
+height: 100px;
+width: 100px;
+left: 20px;
+top: -30px;
+}
+                
+#logo1{
+height: 25px;
+width: 25px;
+left: 67px;
+top: 356px;
+}
+#logo2{
+height: 25px;
+width: 12.5px;
+left: 20px;
+top: 356px;
+}
+
+#text10{
+height: 17px;
+width: 279px;
+left: 20px;
+top: 222px;
+font-size: 12px;
+line-height: 15px;
+}
+                
+#text11{
+height: 15px;
+width: 279px;
+left: 20px;
+top: 249px;
+font-size: 12px;
+line-height: 15px;
+}
+                
+#text12{
+height: 16px;
+width: 280px;
+left: 20px;
+top: 274px;
+border-radius: nullpx;
+font-size: 12px;
+line-height: 15px;
+}
+                
+#footer-BigText2{
+height: 24px;
+width: 182px;
+left: 20px;
+top: 168px;
+}
+                
+#footer-TEXT-small1{
+height: 16px;
+width: 280px;
+left: 20px;
+top: 416px;
+font-size: 11px;
+line-height: 13px;
+}
+                
+#footer-TEXT-small2{
+height: 16px;
+width: 280px;
+left: 20px;
+top: 437px;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+text-align: left;
+}
+#rekviziti{
+display:block;
+height: 21px;
+width: 220px;
+left: 20px;
+top: 300px;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+} 
+#riped5{
+position: absolute;
+width: 1093.6px;
+height: 60px;
+left: -282px;
+top: 6px;
+}    
+#riped4{
+position: absolute;
+width: 768px;
+height: 270px;
+left: 0px;
+top: 0px;
+}
+#riped3{
+    position: absolute;
+width: 322px;
+height: 500.34px;
+left: -1px;
+top: 0px;
+}
+}
